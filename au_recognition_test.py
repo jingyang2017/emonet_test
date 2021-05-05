@@ -5,7 +5,7 @@ import torch
 from argparse import ArgumentParser
 from ibug.face_alignment import FANPredictor
 from ibug.face_alignment.utils import plot_landmarks
-from ibug.emotion_recognition import EmoNetPredictor
+from ibug.emotion_recognition import AUPredictor
 from ibug.face_detection import RetinaFacePredictor, S3FDPredictor
 
 
@@ -83,8 +83,8 @@ def main() -> None:
         # Create the emotion recogniser
         args.emotion_method = args.emotion_method.lower()
         if args.emotion_method == 'emonet':
-            au_recogniser = EmoNetPredictor(device=args.emotion_device,
-                                            model=(EmoNetPredictor.get_model(args.emotion_weights)
+            au_recogniser = AUPredictor(device=args.emotion_device,
+                                            model=(AUPredictor.get_model(args.emotion_weights)
                                                         if args.emotion_weights else None))
             print('Emotion recogniser created using EmoNet.')
         else:
