@@ -1,4 +1,4 @@
-# ibug.emotion_actionunit_recognition
+# emotion/actio_nunit recognition
 ** Code is partly forked/copied from the official code of [emonet](https://github.com/face-analysis/emonet)**
 ## Prerequisites
 * [Numpy](https://www.numpy.org/): `$pip3 install numpy`
