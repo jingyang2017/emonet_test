@@ -10,6 +10,6 @@
 ## How to Test
 * To test on live video: `python emotion_recognition_test.py [-i webcam_index]`
 * To test on a video file: `python emotion_recognition_test.py [-i input_file] [-o output_file]`
-* 
+
 ## References
 \[1\] Toisoul, Antoine, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos, and Maja Pantic. "[Estimation of continuous valence and arousal levels from faces in naturalistic conditions.](https://rdcu.be/cdnWi)" _Nature Machine Intelligence_ 3, no. 1 (2021): 42-50.
