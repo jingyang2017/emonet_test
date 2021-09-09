@@ -1,4 +1,4 @@
-# emotion and action_unit recognition
+# Emotion and Action_unit recognition
 ** Code is partly forked/copied from the official code of [emonet](https://github.com/face-analysis/emonet)**
 ## Prerequisites
 * [Numpy](https://www.numpy.org/): `$pip3 install numpy`
