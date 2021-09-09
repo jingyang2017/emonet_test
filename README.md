@@ -1,5 +1,5 @@
-# Emotion and Action_unit recognition
-** Code is partly forked/copied from the official code of [emonet](https://github.com/face-analysis/emonet)**
+# Emotion and Action Unit recognition
+Code is partly forked/copied from the official code of [emonet](https://github.com/face-analysis/emonet)
 ## Prerequisites
 * [Numpy](https://www.numpy.org/): `$pip3 install numpy`
 * [PyTorch](https://pytorch.org/): `$pip3 install torch torchvision`
